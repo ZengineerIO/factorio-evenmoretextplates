@@ -1,0 +1,7 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 18. 04. 2020
+  Info:
+    - Reupload of Deadlock's More Text Plates, since it's marked as deprecated. More plates are already in the making.
+  Locale:
+    - Added german locale.

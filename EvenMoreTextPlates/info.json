@@ -1,0 +1,11 @@
+{
+  "name": "EvenMoreTextPlates",
+  "version": "1.0.1",
+  "title": "Even More Text Plates",
+  "author": "Zengineer",
+  "contact": "zengineer@endocluster.com",
+  "homepage": "",
+  "dependencies": ["base >= 0.18", "textplates >= 0.5.1"],
+  "description": "An extension for Earendel's Text Plates. Adds plastic plates (white and player-coloured).\n\nBased on Deadlock's More Text Plates.\nMore plates will follow.",
+  "factorio_version": "0.18"
+}

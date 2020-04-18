@@ -1,0 +1,23 @@
+#!/bin/sh
+
+[[ ! $1 ]] && echo "need version number" && exit
+
+# copy the whole folder
+if [ -d "EvenMoreTextPlates_$1" ] then
+ rm -rfd "EvenMoreTextPlates_$1"
+fi
+
+cp -r EvenMoreTextPlates "EvenMoreTextPlates_$1"
+
+# update version number in info.json
+cat EvenMoreTextPlates/info.json | sed "s/\"version\": \"[0-9].[0-9].[0-9]\"/\"version\": \"$1\"/" > "EvenMoreTextPlates_$1/info.json" 
+
+# add the new changes to changelog.txt
+cat changes.txt > "EvenMoreTextPlates_$1/changelog.txt" && cat EvenMoreTextPlates/changelog.txt >> "EvenMoreTextPlates_$1/changelog.txt"
+
+# copy both files back to source folder
+cp -f "EvenMoreTextPlates_$1/info.json" EvenMoreTextPlates/info.json
+cp -f "EvenMoreTextPlates_$1/changelog.txt" EvenMoreTextPlates/changelog.txt
+
+# zip it! -m -> move (delete original)
+zip -0 -m -r "EvenMoreTextPlates_$1.zip" "./EvenMoreTextPlates_$1/"
