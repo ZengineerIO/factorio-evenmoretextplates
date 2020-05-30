@@ -12,9 +12,10 @@ textplates.new_materials = {
 	["plasticcoloured"] = "plastic-bar",
 }
 
-if settings.startup["evenmoretextplates-even-more"].value then
+-- For future additions
+--[[ if settings.startup["evenmoretextplates-even-more"].value then
 	textplates.new_materials["creep"] = "raw-fish"
-end
+end ]]
 
 for material, ingredient in pairs(textplates.new_materials) do
 	table.insert(textplates.new_types, {
