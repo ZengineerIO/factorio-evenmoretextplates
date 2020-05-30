@@ -2,7 +2,7 @@
 Version: 1.1.0
 Date: 30. 05. 2020
   Graphics:
-    - New plastic sprites added, based on the original textplates font to be more in line with it. Special thanks to Earendel for the source files for that <3!
+    - New plastic sprites added with the original textplates font to be more in line with it. Special thanks to Earendel for the source files for that <3!
   Features:
     - Added option to enable new plate types for furture addition.
     - Added option to use the old font, in courtesy of Deadlock989 (applies only to both plastic types).
