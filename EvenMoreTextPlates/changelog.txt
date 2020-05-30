@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.0
-Date: 31. 05. 2020
+Date: 30. 05. 2020
   Graphics:
     - New plastic sprites added, based on the original textplates font to be more in line with it. Special thanks to Earendel for the source files for that <3!
   Features:
