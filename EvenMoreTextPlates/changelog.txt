@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 22. 12. 2020
+  Info:
+    - Updated for Factorio 1.0 https://forums.factorio.com/viewtopic.php?f=58&t=92116&p=523859  https://mods.factorio.com/mod/EvenMoreTextPlates/discussion/5fe1f12c034bc7e1c2cee86d so the mod can be auto-downloaded in 1.0!
+
+---------------------------------------------------------------------------------------------------
 Version: 1.1.1
 Date: 28. 11. 2020
   Changes:
