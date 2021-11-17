@@ -17,6 +17,10 @@ textplates.new_materials = {
 	textplates.new_materials["creep"] = "raw-fish"
 end ]]
 
+if settings.startup["evenmoretextplates-even-more"].value then
+	textplates.new_materials["wood"] = "wood"
+end
+
 for material, ingredient in pairs(textplates.new_materials) do
 	table.insert(textplates.new_types, {
 		size = "small",
