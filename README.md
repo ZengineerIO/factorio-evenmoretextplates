@@ -14,6 +14,8 @@ Finally more variants. I will, if time permits, add new variants slowly over tim
 
 ![Wood plates](/texplates_wood_update.png)
 
+A Huge Thanks to PantherX for letting me use Dectorios wood tiles :)
+
 ## Credits:
 
 - [Earendel](https://mods.factorio.com/user/Earendel/) - for the font source and his help.
