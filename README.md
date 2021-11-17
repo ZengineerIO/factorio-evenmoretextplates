@@ -11,6 +11,7 @@ There is an option to enable the old graphics, in courtesy of Deadlock989. This 
 
 ### 1.2.x updates:
 Finally more variants. I will, if time permits, add new variants slowly over time. Starting with..... Wood!
+
 ![Wood plates](https://raw.githubusercontent.com/ZengineerIO/factorio-evenmoretextplates/master/EvenMoreTextPlates/texplates_wood_update.png)
 
 ## Credits:
