@@ -1,41 +1,41 @@
-local textplates = {}
+local evenmoretextplates = {}
 local original_textplates = require("__textplates__.textplates")
 
-textplates.symbols = original_textplates.symbols
-textplates.symbol_by_char = original_textplates.symbol_by_char
-textplates.types = original_textplates.types
+evenmoretextplates.symbols = original_textplates.symbols
+evenmoretextplates.symbol_by_char = original_textplates.symbol_by_char
+evenmoretextplates.types = original_textplates.types
 
-textplates.new_types = {}
+evenmoretextplates.new_types = {}
 
-textplates.new_materials = {
+evenmoretextplates.new_materials = {
 	["plastic"] = "plastic-bar",
 	["plasticcoloured"] = "plastic-bar",
 }
 
 -- For future additions
 --[[ if settings.startup["evenmoretextplates-even-more"].value then
-	textplates.new_materials["creep"] = "raw-fish"
+	evenmoretextplates.new_materials["creep"] = "raw-fish"
 end ]]
 
 if settings.startup["evenmoretextplates-even-more"].value then
-	textplates.new_materials["wood"] = "wood"
+	evenmoretextplates.new_materials["wood"] = "wood"
 end
 
-for material, ingredient in pairs(textplates.new_materials) do
-	table.insert(textplates.new_types, {
+for material, ingredient in pairs(evenmoretextplates.new_materials) do
+	table.insert(evenmoretextplates.new_types, {
 		size = "small",
 		material = material,
 		ingredient = ingredient,
 		name = "textplate-small-"..material,
-		symbols = textplates.symbols
+		symbols = evenmoretextplates.symbols
 	})
-	table.insert(textplates.new_types, {
+	table.insert(evenmoretextplates.new_types, {
 		size = "large",
 		material = material,
 		ingredient = ingredient,
 		name = "textplate-large-"..material,
-		symbols = textplates.symbols
+		symbols = evenmoretextplates.symbols
 	})
 end
 
-return textplates
+return evenmoretextplates

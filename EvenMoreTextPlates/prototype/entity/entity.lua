@@ -59,7 +59,7 @@ local function text_sprite(size, material, symbol)
   }
 end
 
-for _, type in pairs(textplates.new_types) do
+for _, type in pairs(evenmoretextplates.new_types) do
   local size = type.size
   local material = type.material
   local materialtype = (material == "plasticcoloured") and "plastic" or type.material
