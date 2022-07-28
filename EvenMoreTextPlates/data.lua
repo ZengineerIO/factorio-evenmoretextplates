@@ -1,5 +1,5 @@
-evenmoretextplates = require("globals") -- not local at this stage
+evenmoretextplates = require("globals")
 
 require("prototype.entity.entity")
-require("prototype.recipe.recipe")
+--require("prototype.recipe.recipe")
 require("prototype.item.item")
